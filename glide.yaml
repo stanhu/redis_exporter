@@ -2,7 +2,7 @@ package: github.com/oliver006/redis_exporter
 import:
 - package: github.com/sirupsen/logrus
   version: v0.11.0
-- package: github.com/garyburd/redigo
+- package: github.com/gomodule/redigo
   version: v1.2.0
   subpackages:
   - redis
